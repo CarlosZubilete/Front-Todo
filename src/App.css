@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background: radial-gradient(circle at center, #0f172a 0%, #1e293b 100%);
+  color: #e0f7fa;
+}
