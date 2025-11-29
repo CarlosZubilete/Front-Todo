@@ -1,0 +1,24 @@
+{
+  "networks": [
+    {
+      "id": 1,
+      "label": "GitHub",
+      "href": "https://github.com/carloszubilete"
+    },
+    {
+      "id": 2,
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/carlos-zubilete-sanchez/"
+    },
+    {
+      "id": 3,
+      "label": "DockerHub",
+      "href": "https://hub.docker.com/u/happykitten"
+    },
+    {
+      "id": 4,
+      "label": "Instagram",
+      "href": "https://www.instagram.com/_zubiletecarlos/"
+    }
+  ]
+}

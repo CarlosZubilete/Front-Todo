@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
+import { Outlet } from "react-router";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
@@ -19,6 +21,11 @@ function App() {
   return (
     <div className="App">
       <Nav toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
+      {/* Other components will be rendered here via routing */}
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
     </div>
   );
 }
