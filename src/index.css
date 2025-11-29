@@ -52,6 +52,72 @@ html {
   --footer-social-link-hover: #38bdf8; /* social icon hover (light) */
   --footer-border: #374151; /* top border color */
   --footer-bottom-text: #9ca3af; /* small footer bottom text */
+
+  /* Form specific variables */
+  --form-bg: rgba(255, 255, 255, 0.95);
+  --form-border: rgba(255, 255, 255, 0.2);
+  --form-backdrop-blur: 20px;
+  --form-box-shadow: var(--shadow-xl);
+  --form-top-gradient: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color),
+    var(--accent-color)
+  );
+
+  /* Custom Form */
+  /* Modern Design System */
+  --primary-color: #6366f1;
+  --primary-hover: #5855eb;
+  --primary-light: #a5b4fc;
+  --secondary-color: #8b5cf6;
+  --accent-color: #06b6d4;
+
+  --success-color: #10b981;
+  --error-color: #ef4444;
+  --warning-color: #f59e0b;
+
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-light: #9ca3af;
+  --text-white: #ffffff;
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+  --bg-dark: #1f2937;
+  --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  --border-color: #e5e7eb;
+  --border-focus: #6366f1;
+  --border-error: #ef4444;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light;
+  color: var(--text-primary);
+  background: var(--bg-gradient);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .dark-mode {
@@ -96,6 +162,18 @@ html {
   --footer-social-link-hover: #0284c7; /* social icon hover (dark-mode) */
   --footer-border: #d1d5db; /* top border in dark-mode */
   --footer-bottom-text: #6b7280; /* small footer bottom text in dark-mode */
+
+  /* Form specific variables (dark mode) */
+  --form-bg: var(--bg-surface);
+  --form-border: var(--border);
+  --form-backdrop-blur: 12px;
+  --form-box-shadow: var(--shadow-md);
+  --form-top-gradient: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color),
+    var(--accent-color)
+  );
 }
 
 body {
