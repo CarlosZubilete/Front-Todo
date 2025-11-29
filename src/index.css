@@ -78,7 +78,7 @@ html {
 
 body {
   background-color: var(--bg-color);
-  background-image: var(--bg-gradient);
+  /* background-image: var(--bg-gradient); */
   color: var(--text-color);
   transition: background-color 0.5s ease, color 0.5s ease;
 }
