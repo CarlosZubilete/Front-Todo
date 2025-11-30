@@ -19,7 +19,7 @@
 .navbar__logo {
   /* border: 1px solid red; */
   padding-left: 1rem;
-  width: 15%;
+  /* width: 15%; */
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
@@ -28,14 +28,17 @@
 .navbar__nav {
   /* border: 1px solid red; */
   display: flex;
-  width: 50%;
+  width: 40%;
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
+  /* justify-content: stretch; */
   transition: background-color 0.3s ease;
 }
 
 .navbar__link {
+  /* border: 1px solid red; */
+  width: 100%;
   margin: 0 1rem;
   color: var(--text-color);
   text-decoration: none;
@@ -65,6 +68,16 @@
 .navbar__btn--menu,
 .navbar__btn--close {
   display: none;
+}
+@media only screen and (max-width: 650px) {
+  .navbar__nav {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 445px) {

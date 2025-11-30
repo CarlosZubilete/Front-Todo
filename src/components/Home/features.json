@@ -1,0 +1,22 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "name": "FaPlus",
+      "title": "Add and Remove",
+      "description": "Up to 12 items. Add or remove whenever you want."
+    },
+    {
+      "id": 2,
+      "name": "FaSpinner",
+      "title": "Spin the wheel",
+      "description": "Get a random number and may the force be with you"
+    },
+    {
+      "id": 3,
+      "name": "FaTrash",
+      "title": "Manage in your browser",
+      "description": "We save everything in DataBase. (*Do save sensitive data*)"
+    }
+  ]
+}

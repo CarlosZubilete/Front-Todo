@@ -1,22 +1,10 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router";
-
+import useDarkMode from "./hooks/useDarkMode";
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-
-  const toggleTheme = () => setIsDarkMode(!isDarkMode);
-
-  useEffect(() => {
-    const body = document.body;
-    if (isDarkMode) {
-      body.classList.add("dark-mode");
-    } else {
-      body.classList.remove("dark-mode");
-    }
-  }, [isDarkMode]);
+  const { isDarkMode, toggleTheme } = useDarkMode();
 
   return (
     <div className="App">
