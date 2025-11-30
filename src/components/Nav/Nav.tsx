@@ -1,11 +1,8 @@
 import { useRef } from "react";
 import "./Nav.css";
-// import * as data from "./links.json";
 import { FaBars, FaMoon, FaSun, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { links } from "./links.json";
-// const linksString = JSON.stringify(data);
-// const links = JSON.parse(linksString).links;
 
 type LinkProps = {
   id: number;

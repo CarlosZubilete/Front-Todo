@@ -86,7 +86,7 @@ html {
   --bg-secondary: #f9fafb;
   --bg-tertiary: #f3f4f6;
   --bg-dark: #1f2937;
-  --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --bg-gradient: linear-gradient(135deg, #95a5ed 0%, #8566a4 100%);
 
   --border-color: #e5e7eb;
   --border-focus: #6366f1;
@@ -118,6 +118,16 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* AboutUs.css */
+  --about-us-bg: #ffffff;
+  --about-us-color: #212121;
+  --about-us-accent: #2563eb;
+  --about-us-accent-hover: #1d4ed8;
+  --about-us-muted: #666666;
+  --about-us-card-bg: #f9fafb;
+  --about-us-card-shadow: rgba(0, 0, 0, 0.08);
+  --about-us-shadow-soft: rgba(0, 0, 0, 0.06);
 }
 
 .dark-mode {
@@ -174,6 +184,16 @@ html {
     var(--secondary-color),
     var(--accent-color)
   );
+
+  /* About */
+  --about-us-bg: #121212;
+  --about-us-color: #f1f1f1;
+  --about-us-accent: #4dabf7;
+  --about-us-accent-hover: #339af0;
+  --about-us-muted: #a0a0a0;
+  --about-us-card-bg: #1e1e1e;
+  --about-us-card-shadow: rgba(0, 0, 0, 0.6);
+  --about-us-shadow-soft: rgba(0, 0, 0, 0.4);
 }
 
 body {

@@ -1,0 +1,102 @@
+.about-page {
+  padding: 2rem 1rem;
+  color: var(--about-us-color);
+  background: var(--about-us-bg);
+  /* min-height: 100vh; */
+}
+
+.about-page__info {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+/* benefits list */
+.about-us__benefits {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+}
+.about-us__benefits li {
+  background: var(--about-us-card-bg);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--about-us-accent);
+  box-shadow: 0 2px 4px var(--about-us-card-shadow);
+  transition: all 0.3s ease;
+}
+.about-us__benefits li:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 8px var(--about-us-shadow-soft);
+}
+
+/* Aside cards */
+
+/* Tech chips */
+.tech__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tech__chip {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+  background: var(--about-us-accent);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.tech__chip:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.2);
+}
+
+/* Footer */
+.about-us__final {
+  max-width: 61.25rem;
+  margin: 3rem auto 0;
+  text-align: center;
+  color: var(--about-us-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive: left align from tablet up */
+@media only screen and (max-width: 768px) {
+  .page-container {
+    padding: 3rem 2rem;
+  }
+
+  .about-page__info {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us__title {
+    font-size: 2.8rem;
+  }
+  .about-us__grid {
+    grid-template-columns: 1fr 360px;
+    gap: 2rem;
+  }
+  .about-us__lead {
+    font-size: 1.2rem;
+  }
+}
+
+/* .dark-mode .page-container {
+  --about-us-bg: #0d1117;
+  --about-us-color: #c9d1d9;
+  --about-us-accent: #58a6ff;
+  --about-us-accent-hover: #1f6feb;
+  --about-us-muted: #8b949e;
+  --about-us-card-bg: #161b22;
+  --about-us-card-shadow: rgba(0, 0, 0, 0.5);
+  --about-us-shadow-soft: rgba(0, 0, 0, 0.3);
+} */

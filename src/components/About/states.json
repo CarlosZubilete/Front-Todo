@@ -1,0 +1,19 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "heading": "Mission",
+      "text": "Empower users to organize their ideas, tasks, and goals through a clean, intuitive, and distraction-free experience that boosts daily productivity."
+    },
+    {
+      "id": 2,
+      "heading": "Vision",
+      "text": "Become a reference tool for individuals who value simplicity, efficiency, and a touch of creativity when managing their personal or professional tasks."
+    },
+    {
+      "id": 3,
+      "heading": "Values",
+      "text": "A clear and accessible interface for everyone. With tools that help users save time and stay focused. Implements features like the task roulette that make productivity engaging. So far a stable, secure, and consistent experience."
+    }
+  ]
+}

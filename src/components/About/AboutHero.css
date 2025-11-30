@@ -1,0 +1,92 @@
+/* HERO */
+.about-hero {
+  /* border: 1px solid green; */
+  margin: 0 0.5rem;
+  text-align: center;
+}
+
+.about-hero__title {
+  font-size: 2.2rem;
+  margin: 0;
+  line-height: 1.05;
+  color: var(--about-us-accent);
+  transition: color 0.3s ease;
+}
+
+.about-hero__lead {
+  /* border: 1px solid blue; */
+  margin-top: 0.5rem;
+  color: var(--about-us-muted);
+  max-width: 68ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* hero CTAs */
+.about-hero__ctas {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--about-us-accent);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.15);
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background: var(--about-us-accent-hover);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.25);
+}
+.btn-ghost {
+  background: transparent;
+  border: 2px solid var(--about-us-accent);
+  color: var(--about-us-accent);
+  transition: all 0.3s ease;
+}
+.btn-ghost:hover {
+  background: var(--about-us-accent);
+  color: #ffffff;
+}
+
+/* Panels */
+.about-hero__panel {
+  /* border: 1px solid red; */
+  background: transparent;
+}
+.about-hero__heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--about-us-color);
+  margin: 1.5rem 0 0.5rem 0;
+  border-bottom: 2px solid var(--about-us-accent);
+  padding-bottom: 0.5rem;
+}
+
+.about-hero__text {
+  color: var(--about-us-muted);
+  line-height: 1.7;
+  /* max-width: 66ch; */
+  margin: 0 0 1rem 0;
+  font-size: 0.95rem;
+}
+
+.about-hero__text.small {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
