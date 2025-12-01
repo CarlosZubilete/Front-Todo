@@ -1,0 +1,49 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "url": "https://developer.mozilla.org/es/docs/Web/HTML"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "url": "https://developer.mozilla.org/es/docs/Web/CSS/Tutorials"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "url": "https://es.react.dev/"
+    },
+    {
+      "id": 4,
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "id": 5,
+      "name": "Zod",
+      "url": "https://zod.dev/"
+    },
+    {
+      "id": 6,
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/"
+    },
+    {
+      "id": 7,
+      "name": "React Router",
+      "url": "https://reactrouter.com/"
+    },
+    {
+      "id": 8,
+      "name": "React Icons",
+      "url": "https://react-icons.github.io/react-icons/"
+    },
+    {
+      "id": 9,
+      "name": "Vite",
+      "url": "https://vitejs.dev/"
+    }
+  ]
+}

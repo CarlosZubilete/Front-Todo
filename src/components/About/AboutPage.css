@@ -12,49 +12,6 @@
   align-items: center;
 }
 
-/* benefits list */
-.about-us__benefits {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 0.5rem;
-}
-.about-us__benefits li {
-  background: var(--about-us-card-bg);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border-left: 4px solid var(--about-us-accent);
-  box-shadow: 0 2px 4px var(--about-us-card-shadow);
-  transition: all 0.3s ease;
-}
-.about-us__benefits li:hover {
-  transform: translateX(4px);
-  box-shadow: 0 4px 8px var(--about-us-shadow-soft);
-}
-
-/* Aside cards */
-
-/* Tech chips */
-.tech__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.tech__chip {
-  padding: 0.5rem 0.8rem;
-  border-radius: 0.4rem;
-  background: var(--about-us-accent);
-  color: #ffffff;
-  font-size: 0.85rem;
-  font-weight: 500;
-  transition: all 0.2s ease;
-}
-.tech__chip:hover {
-  transform: scale(1.05);
-  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.2);
-}
-
 /* Footer */
 .about-us__final {
   max-width: 61.25rem;
@@ -67,7 +24,7 @@
 
 /* Responsive: left align from tablet up */
 @media only screen and (max-width: 768px) {
-  .page-container {
+  .about-page {
     padding: 3rem 2rem;
   }
 
