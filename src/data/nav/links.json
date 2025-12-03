@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "id": 1,
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "label": "Context",
+      "href": "/context"
+    },
+    {
+      "id": 3,
+      "label": "About",
+      "href": "/about"
+    }
+  ]
+}

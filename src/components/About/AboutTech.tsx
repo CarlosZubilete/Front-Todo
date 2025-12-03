@@ -1,5 +1,5 @@
 import "./AboutTech.css";
-import { technologies } from "./technologies.json";
+import { technologies } from "../../data";
 
 type TechProps = {
   id: number;
@@ -9,7 +9,7 @@ type TechProps = {
 
 const AboutTech = () => {
   // Duplicate the tech stack 3 times for seamless infinite scroll
-  // const items = [...TECH_STACK, ...TECH_STACK, ...TECH_STACK];
+
   const items: TechProps[] = [
     ...technologies,
     ...technologies,
@@ -17,7 +17,7 @@ const AboutTech = () => {
   ];
 
   return (
-    <div className="about-tech">
+    <div className="about-tech card-about">
       <h3 className="about-tech__heading">Tech Stack</h3>
       <div className="about-tech__carousel">
         <div className="about-tech__group">

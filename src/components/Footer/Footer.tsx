@@ -1,10 +1,9 @@
 import "./Footer.css";
 import { FaGithub, FaInstagram, FaLinkedin, FaDocker } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import type { ReactNode } from "react";
-import { links } from "../Nav/links.json";
-import { networks } from "./networks.json";
 import type { JSX } from "react";
+import { links } from "../../data";
+import { networks } from "../../data";
 
 type LinkProps = {
   id: number;

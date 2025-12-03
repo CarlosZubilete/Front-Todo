@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import "./Nav.css";
-import { FaBars, FaMoon, FaSun, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { links } from "./links.json";
+import { FaBars, FaMoon, FaSun, FaTimes } from "react-icons/fa";
+import "./Nav.css";
+import { links } from "../../data";
 
 type LinkProps = {
   id: number;

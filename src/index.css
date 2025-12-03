@@ -202,3 +202,27 @@ body {
   color: var(--text-color);
   transition: background-color 0.5s ease, color 0.5s ease;
 }
+
+/* Shared card utility class */
+.card-about {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.7rem;
+  background: var(--about-us-card-bg);
+  border: 1px solid rgba(37, 99, 235, 0.1);
+  box-shadow: 0 2px 8px var(--about-us-card-shadow);
+}
+
+/* Shared Home component utilities */
+.home-card {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  background: var(--bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.home-card:hover {
+  transform: translateY(-5px);
+}

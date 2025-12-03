@@ -1,17 +1,10 @@
 .about-state {
   display: flex;
   flex-direction: column;
-
   /* gap: 1rem; */
 }
 
 .about-state__card {
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border-radius: 0.7rem;
-  background: var(--about-us-card-bg);
-  border: 1px solid rgba(37, 99, 235, 0.1);
-  box-shadow: 0 2px 8px var(--about-us-card-shadow);
   transition: all 0.3s ease;
 }
 .about-state__card:hover {

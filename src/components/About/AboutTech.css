@@ -1,12 +1,6 @@
 /* Tech chips carousel container */
 .about-tech {
   width: 100%;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border-radius: 0.7rem;
-  background: var(--about-us-card-bg);
-  border: 1px solid rgba(37, 99, 235, 0.1);
-  box-shadow: 0 2px 8px var(--about-us-card-shadow);
   overflow: hidden;
   position: relative;
 }
@@ -54,6 +48,7 @@
 }
 
 .about-tech__chip:hover {
+  cursor: pointer;
   transform: scale(1.08);
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
