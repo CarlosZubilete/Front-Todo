@@ -1,16 +1,11 @@
 import "./AboutState.css";
 import { states } from "../../data";
-
-type StateProps = {
-  id: number;
-  heading: string;
-  text: string;
-};
+import type { StateType } from "../../types";
 
 const AboutState = () => {
   return (
     <div className="about-state">
-      {states.map((state: StateProps) => {
+      {states.map((state: StateType) => {
         return (
           <div key={state.id} className="about-state__card card-about">
             <h3 className="about-state__heading">{state.heading}</h3>

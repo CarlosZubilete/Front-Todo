@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import type { JSX } from "react";
 import { links } from "../../data";
 import { networks } from "../../data";
-
-type LinkProps = {
-  id: number;
-  label: string;
-  href: string;
-};
+import type { LinkType, NetworkType } from "../../types";
 
 const Footer = () => {
   // Map social media labels to their corresponding icons
@@ -44,7 +39,7 @@ const Footer = () => {
         <div className="footer__section footer__links">
           <h2 className="footer__title">Quick Links</h2>
           <div className="footer__list">
-            {links.map((link: LinkProps) => {
+            {links.map((link: LinkType) => {
               return (
                 <Link key={link.id} to={link.href} className="footer__link">
                   {link.label}
@@ -58,7 +53,7 @@ const Footer = () => {
           <h2 className="footer__title">Follow Us</h2>
           <ul className="footer__social-list">
             {(() => {
-              return networks.map((network: LinkProps) => (
+              return networks.map((network: NetworkType) => (
                 <li key={network.id}>
                   <a
                     target="_blank"

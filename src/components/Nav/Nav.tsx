@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaMoon, FaSun, FaTimes } from "react-icons/fa";
 import "./Nav.css";
 import { links } from "../../data";
-
-type LinkProps = {
-  id: number;
-  label: string;
-  href: string;
-};
+import type { LinkType } from "../../types";
 
 interface DarkModeProps {
   toggleTheme: () => void;
@@ -39,7 +34,7 @@ const Nav = ({ toggleTheme, isDarkMode }: DarkModeProps) => {
       {/* NAVBAR */}
       <div className="navbar__nav" ref={navRef}>
         {/* NAVBAR BUTTON - RESPONSIVE */}
-        {links.map((link: LinkProps) => {
+        {links.map((link: LinkType) => {
           return (
             <Link
               key={link.id}

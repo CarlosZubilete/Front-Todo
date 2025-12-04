@@ -2,14 +2,9 @@ import { FaPlus, FaTrash, FaSpinner } from "react-icons/fa";
 import "./Feature.css";
 import type { JSX } from "react";
 import { features } from "../../data";
+import type { FeatureType } from "../../types";
 
-type FeatureProps = {
-  id: number;
-  name: string;
-  title: string;
-  description: string;
-  // icon: JSX.Element;
-};
+// type FeatureProps = FeatureType;
 
 const Feature = () => {
   const iconMap: Record<string, JSX.Element> = {
@@ -21,7 +16,7 @@ const Feature = () => {
   return (
     <section id="features" className="home__features">
       {(() => {
-        return features.map((feature: FeatureProps) => (
+        return features.map((feature: FeatureType) => (
           <div key={feature.id} className="home__feature home-card">
             {iconMap[feature.name] ?? <FaPlus className="home__feature-icon" />}
             <h3 className="home__feature-title">{feature.title}</h3>
