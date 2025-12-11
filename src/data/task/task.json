@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Demo Data",
+      "description": "This is some demo data for testing purposes.",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Another Demo Item",
+      "description": "This is another item in the demo data.",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Final Demo Entry",
+      "description": "The last entry in the demo dataset.",
+      "completed": false
+    }
+  ]
+}

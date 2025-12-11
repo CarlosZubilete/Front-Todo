@@ -1,0 +1,101 @@
+.task-list {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.task-list__card {
+  width: 100%;
+  border: 1px solid yellow;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+}
+
+.task-list__item {
+  /* border: 1px solid yellow; */
+  /* width: 100%; */
+  flex: 1 1 100%;
+  max-width: none;
+  background-color: transparent;
+  border-radius: 12px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-list__buttons {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: start;
+}
+
+.task-list__buttons-delete,
+.task-list__buttons-edit {
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  font-weight: 600;
+  padding: 0.1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 5px var(--btn-addDocument-bg-shadow);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.task-list__buttons-edit {
+  color: var(--btn-edit-text);
+  border: 1px solid var(--btn-edit-border);
+  background-color: var(--btn-edit-bg);
+}
+
+.task-list__buttons-delete {
+  background-color: var(--btn-delete-bg);
+  color: var(--btn-delete-text);
+  border: 1px solid var(--btn-delete-border);
+}
+
+.task-list__buttons-edit:hover,
+.task-list__buttons-delete:hover {
+  transform: translateY(-1px) translateX(-1px);
+  box-shadow: 0 1px 2px var(--btn-addDocument-bg-shadow);
+}
+
+.task-list__buttons-edit:hover {
+  background-color: var(--btn-edit-hover-bg);
+}
+
+.task-list__buttons-delete:hover {
+  color: var(--btn-delete-hover-text);
+}
+
+.task-list__buttons-edit-icon,
+.task-list__buttons-delete-icon {
+  font-size: 2.5rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+.task-list__buttons-edit-icon {
+  border: 1px solid var(--btn-edit-icon-border);
+  background-color: var(--btn-edit-icon-bg);
+}
+
+/* @media (max-width: 425px) {
+  .purchase-list {
+  
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .purchase-list__card {
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+} */

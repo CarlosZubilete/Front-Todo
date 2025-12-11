@@ -20,19 +20,20 @@ const Footer = () => {
       <div className="footer__content">
         <div className="footer__section footer__about">
           <h2 className="footer__title">Contact Us</h2>
-          <p className="footer__location">Argentina - Bs.As. - Tigre</p>
+          <p className="footer__location">📍 Tigre - Buenos Aires, Argentina</p>
           <p className="footer__email">
             <a
               href="mailto:carloszubiletesanchez@gmail.com"
               className="footer__link"
             >
-              carloszubiletesanchez@gmail.com
+              📩 carloszubiletesanchez@gmail.com
             </a>
           </p>
           <p className="footer__message">
-            Thank you for trusting in our work.
-            <br />
-            If you're looking to boost your project, let's connect!
+            Thank you for visiting our application.
+            <br /> <br />
+            From your dreams to the digital world,
+            <strong> only one click separates us. </strong>
           </p>
         </div>
 

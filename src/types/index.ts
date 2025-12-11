@@ -28,3 +28,9 @@ export type NetworkType = IdEntity & {
   label: string;
   href: string;
 };
+
+export type TaskType = IdEntity & {
+  title: string;
+  description: string;
+  completed: boolean;
+};

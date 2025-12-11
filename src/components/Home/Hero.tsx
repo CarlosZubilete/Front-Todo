@@ -10,7 +10,7 @@ const Hero = () => {
         Create your task or challenge list, save it in your database, and let
         the roulette decide for you.
       </p>
-      <Link to={"/roulette"}>
+      <Link to={"/task"} className="home__cta-link">
         <button className="home__cta">
           <FaChevronRight className="home__cta-icon" />
           Try demo now
